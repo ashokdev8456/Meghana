@@ -18,47 +18,50 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Happy Birthday Meghana">
-    <link rel="canonical" href="https://yourdomain.com/">
+    <link rel="canonical" href="https://onlyformeghana.online/">
 
-    <!-- ══ FAVICON — meg1.jpeg ══ -->
-    <!-- Standard favicon via link tag using the photo directly -->
+    <!-- ══ FAVICON — meg1.jpeg as site icon ══ -->
     <link rel="icon" type="image/jpeg" href="./assets/meg1.jpeg">
-    <link rel="apple-touch-icon" href="./assets/meg1.jpeg">
-    <link rel="shortcut icon" href="./assets/meg1.jpeg">
+    <link rel="shortcut icon" type="image/jpeg" href="./assets/meg1.jpeg">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/meg1.jpeg">
+    <link rel="apple-touch-icon-precomposed" href="./assets/meg1.jpeg">
 
     <!-- ══ OPEN GRAPH (Facebook, WhatsApp, LinkedIn, Google rich preview) ══ -->
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Happy Birthday Meghana">
+    <meta property="og:site_name" content="Happy Birthday Meghana 🎂">
     <meta property="og:title" content="🎂 Happy Birthday Meghana! A Magical Birthday Celebration">
     <meta property="og:description"
         content="Wishing the most amazing Meghana a very Happy Birthday! A heartfelt celebration made with love — wishes, memories, and a special letter, just for you. 🌸✨">
-    <meta property="og:image" content="./assets/meg1.jpeg">
+    <meta property="og:image" content="https://onlyformeghana.online/assets/meg1.jpeg">
+    <meta property="og:image:secure_url" content="https://onlyformeghana.online/assets/meg1.jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Happy Birthday Meghana - Birthday Celebration Photo">
     <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:url" content="https://yourdomain.com/">
+    <meta property="og:url" content="https://onlyformeghana.online/">
     <meta property="og:locale" content="en_US">
 
     <!-- ══ TWITTER CARD ══ -->
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@onlyformeghana">
     <meta name="twitter:title" content="🎂 Happy Birthday Meghana! A Magical Birthday Celebration">
     <meta name="twitter:description"
         content="A heartfelt birthday celebration made with love — wishes, memories, a special letter, and all the magic, just for Meghana. 🌸✨">
-    <meta name="twitter:image" content="./assets/meg1.jpeg">
+    <meta name="twitter:image" content="https://onlyformeghana.online/assets/meg1.jpeg">
     <meta name="twitter:image:alt" content="Happy Birthday Meghana">
 
-    <!-- ══ STRUCTURED DATA — JSON-LD for Google rich results ══ -->
+    <!-- ══ STRUCTURED DATA — JSON-LD for Google rich results + Logo Recognition ══ -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebPage",
+      "@type": "WebSite",
       "name": "Happy Birthday Meghana 🎂",
+      "alternateName": "Only For Meghana",
       "description": "A magical, heartfelt birthday celebration for Meghana, filled with birthday wishes, cherished memories, a personal letter, and endless love.",
-      "url": "https://yourdomain.com/",
+      "url": "https://onlyformeghana.online/",
       "image": {
         "@type": "ImageObject",
-        "url": "https://yourdomain.com/assets/meg1.jpeg",
+        "url": "https://onlyformeghana.online/assets/meg1.jpeg",
         "description": "Happy Birthday Meghana - Birthday Celebration"
       },
       "author": {
@@ -73,12 +76,32 @@
         "description": "A magical birthday celebration for the wonderful Meghana",
         "eventStatus": "https://schema.org/EventScheduled",
         "startDate": "2025-03-27",
-        "image": "https://yourdomain.com/assets/meg1.jpeg"
+        "image": "https://onlyformeghana.online/assets/meg1.jpeg"
       }
     }
     </script>
 
+    <!-- ══ ORGANIZATION / LOGO SCHEMA — Helps Google show your icon in search ══ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Happy Birthday Meghana",
+      "url": "https://onlyformeghana.online/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onlyformeghana.online/assets/meg1.jpeg",
+        "width": 512,
+        "height": 512,
+        "caption": "Happy Birthday Meghana Logo"
+      },
+      "image": "https://onlyformeghana.online/assets/meg1.jpeg",
+      "description": "A magical birthday celebration website made with love for Meghana."
+    }
+    </script>
+
     <!-- ══ PERFORMANCE HINTS ══ -->
+    <link rel="preload" href="./assets/meg1.jpeg" as="image">
     <link rel="preload" href="./assets/meg1.jpeg" as="image">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -2677,7 +2700,7 @@
             <p class="section-label">Cherished Memories</p>
             <h2 class="section-title">Your <span>Beautiful</span> Moments</h2>
             <div class="gallery-hint">
-                <div class="hint-pill"><span>✦</span> Hover or tap each photo to reveal a message <span>✦</span></div>
+                <!-- <div class="hint-pill"><span>✦</span> Hover or tap each photo to reveal a message <span>✦</span></div> -->
             </div>
             <div class="gallery-grid">
                 <div class="gallery-item">
